@@ -5,6 +5,7 @@ body {
     padding: 0 150px;
     no-repeat center center fixed;
     background-size: cover;
+    padding-bottom: 50px;
 }
 
 form {
