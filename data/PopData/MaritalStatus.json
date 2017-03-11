@@ -1,0 +1,24 @@
+[{
+    "value": "single",
+    "desc": "Single"
+},
+    {
+        "value": "married",
+        "desc": "Married"
+},
+    {
+        "value": "married",
+        "desc": "married"
+},
+    {
+        "value": "divorced",
+        "desc": "Divorced"
+},
+    {
+        "value": "widowed",
+        "desc": "Widowed"
+},
+    {
+        "value": "engaged",
+        "desc": "Engaged"
+}]
