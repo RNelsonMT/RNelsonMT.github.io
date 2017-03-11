@@ -1,0 +1,42 @@
+[{"Client":[  
+         {  "Name_First":"Ron",
+            "Name_Middle":"Arden",
+            "Name_Last":"Nelson"
+         }
+      ]
+   },
+   {  "Spouse":[  
+         {  
+            "Name_First":"Becky",
+            "Name_Middle":"Rae",
+            "Name_Last":"Nelson"
+         }
+      ]
+   },
+   {  "Children": [
+         {  
+            "Name_First":"Connor",
+            "Name_Middle":"Brooks",
+            "Name_Last":"Nelson"
+         },
+         {  
+            "Name_First":"Alex",
+            "Name_Middle":"Irene",
+            "Name_Last":"Nelson"
+         }
+      ]
+   },
+   {  "OtherParty": [
+         {  
+            "Name_First":"Troy",
+            "Name_Middle":"Gary",
+            "Name_Last":"Lindquist"
+         },
+         {  
+            "Name_First":"Jerry",
+            "Name_Middle":"",
+            "Name_Last":"Hood"
+         }
+      ]
+   }
+]

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Estate Planning Interview</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <<style>
+            body{
+                background-color: rgb(237,241,250);
+            }
+        </style>
+        
+	</head>
+	<body>
+		<div class="grid">
+			<div class="row">
+				<div class="col-4">
+					<h1 class="row">CHJW Estate Planning Interview</h1>
+					<h2>Parties</h2>
+					<div class="NavSel">
+						<a href="Client">Client</a>
+					</div>
+					<div class="NavSel">
+						<a href="Spouse">Spouse</a>
+					</div>
+					<div class="NavSel">
+						<a href="Children">Children</a>
+					</div>
+					<div class="NavSel">
+						<a href="Other">Other</a>
+					</div>
+					<h2>Will</h2>
+					<div class="NavSel">
+						<a href="General Will Provisions">General Will Provisions</a>
+					</div>
+					<div class="NavSel">
+						<a href="Dispositve Provisions">Dispositive Provisions</a>
+					</div>
+					<div class="NavSel">
+						<a href="Fiduciary Appointments & Powers">Fiduciary Appointments & Powers</a>
+					</div>
+					<h2>Power of Attorney</h2>
+				</div>
+				<div class="col-8">
+					<div id="POAInput">
+						<h3>General Provisions</h3>
+							<select id="DPOA_Scope_MC">
+								<option selected="selected">Financial & Medical</option>
+								<option>Financial Only</option>
+								<option>Medical Only</option>
+							</select>
+							<select id="DPOA_Gift_Authority_MC">
+								<option>Agent May Continue Program of Gifts to Spouse</option>
+								<option>Agent May Continue Program of Gifts to Spouse and Issue</option>
+								<option>Agent May Continue Program of Gifts to Issue</option>
+								<option>Agent Prohibited From Making Gifts</option>
+								<option>No Statement Regarding Agent's Authority to Make Gifts</option>
+							</select>
+							Effective <input type="radio" name="DPOA_Effective Immediately_TF" value="true">Immediately
+							<input type="radio" name="DPOA_Effective Immediately_TF" value="false" checked="checked">On Disability<br><br>
+							Agent's Supplemental Authority to Make Gifts (Select All That Apply):<br>
+							<input type="checkbox" class="answer" name="DPOA_Gift_Authority_Supplemental_MC" value="Spouse">Agent May Make Gifts To Spouse Without Limitation
+							<input type="checkbox" class="answer" name="DPOA_Gift_Authority_Supplemental_MC" value="Trust">Agent May Transfer To Revocable Living Trust
+							<input type="checkbox" class="answer" name="DPOA_Gift_Authority_Supplemental_MC" value="Heirs">Agent May Transfer to Heirs<br>
+							<input type="checkbox" class="all" name="DPOA_Gift_Authority_Supplemental_MC" value="All">All of the Above
+							<input type="checkbox" class="none" name="DPOA_Gift_Authority_Supplemental_MC" value="None" checked="checked">None of the Above
+						<br><br><br><br>
+						<hr><h3>Agent Appointment</h3><br><br><br><br>
+						<hr><h3>Guardian & Conservator Appointment</h3><br><br><br><br>
+					</div>				
+					
+				</div>
+				
+			</div>
+			
+		</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('input.all').click(function(){
+    $('input.answer').attr("checked", "checked");
+  });
+  $('input.none').click(function(){
+    $('input.answer').removeAttr("checked");
+    $('input.all').removeAttr("checked");
+  });
+});
+</script>
+
+
+	</body>
+</html>

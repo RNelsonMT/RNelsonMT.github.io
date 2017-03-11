@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CHJW EP Intake</title>
+        <style>
+            body {
+                font-family: Roboto, sans-serif;
+                color: maroon;
+                background-color: white;
+                padding: 0 150px;
+                no-repeat center center fixed;
+                background-size: cover;
+            }
+            
+            form {
+                background-color: #7C8D93;
+
+            }
+            
+            input {
+                margin-left: 2px;
+                width: 29%;
+                border-radius: 5px;
+                background-color: 7C8D93;
+                height: 25px;
+                font-size: 20px;
+                margin: 5px 20px;
+                padding: 3px;
+            }
+            
+            select {
+                width: 29.5%;
+/*                color: #b5b1b1; */
+                border-radius: 5px;
+                background-color: 7C8D93;
+                height: 37px;
+                font-size: 20px;
+                margin: 5px 20px;
+            }
+            
+            h1 {
+                text-align: center;
+                padding: 5px;
+                background-color: #3d5861;
+                color: white;
+                font-size: 50px;
+            }
+            
+            h2 {
+                padding-top: 10px;
+                font-weight: 750;
+                margin: 10px;
+                color: #143365;
+            }
+            
+            ::placeholder {
+               color: #b5b1b1; 
+            }
+            
+        </style>
+//        <script>
+//            var genderSelect = "Gender";
+//            genderSelect = document.getElementById("genderClient");
+//            var genderValue = genderSelect.options[genderSelect.selectedIndex].index;
+//
+//            
+//            genderSelect.addEventListener("change", updateGender);
+//            
+//            function updateGender(ev){
+//              console.log("Gender Changed To ", ev.target.value);
+//		      genderVal = clientGender.options[clientGender.selectedIndex].value;
+//            
+//            console.log(genderVal)
+//            }
+//            
+//            console.log(genderSelect);
+//            console.log(genderValue);
+//            
+//            
+//        </script>
+
+        </head>
+    <body>
+        
+    <div id="header"><h1>CHJW Estate Planning Interview</h1></div><hr>
+    <div id="people">
+
+    <form id="clientInfo">
+        <h2>Client Name</h2>
+        <input type="text" placeholder="Given Name (Full)" autocomplete="given-name"><input type="text" placeholder="Middle Name" autocomplete="additional-name"><input type="text" placeholder="Last Name" autocomplete="family-name"><br>
+        <input type="text" placeholder="Prefix" autocomplete="honorific-prefix"><input type="text" placeholder="Suffix" autocomplete="honorific-suffix"><input type="text" placeholder="Salutation / Nickname" autocomplete="nickname"><br>
+        <input type="text" placeholder="Alias (Enter Full Name)"><br>
+        
+        <h2>Address (Residence)</h2>
+            <input type="text" placeholder="Street (Line 1)" autocomplete="address-line1"><input type="text" placeholder="Street (Line 2)" autocomplete="address-line2"><br>
+            <input type="text" placeholder="City" autocomplete="city"><input type="text" placeholder="State" autocomplete="state"><input type="text" placeholder="Zip" autocomplete="postal-code"><br>
+        
+     <h2>Other Information</h2>
+        <select id="genderClient">
+            <option selected="selected">Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+           </select>
+            <input type="text" placeholder="Marital Status"><input type="text" placeholder="Date of Birth"><br>
+            <input type="text" placeholder="Social Security Number"><input type="text" placeholder="Citizenship"><br>
+            <input type="text" placeholder="Phone" autocomplete="tel"><input type="email" placeholder="Email">
+            <br>
+<br><br>
+            
+        
+ <hr>
+        
+        </form>          
+        
+    <form id="spouseInfo">
+        <h2>Spouse Name</h2>
+        <input type="text" placeholder="First Name"><input type="text" placeholder="Middle Name"><input type="text" placeholder="Last Name"><br>
+        <input type="text" placeholder="Prefix"><input type="text" placeholder="Suffix"><input type="text" placeholder="Salutation"><br>
+        <input type="text" placeholder="Alias (Enter Full Name)"><br>
+        
+        <h2>Other Information</h2>
+            <input type="text" placeholder="Gender"><input type="text" placeholder="Marital Status"><input type="text" placeholder="Date of Birth"><br>
+            <input type="text" placeholder="Social Security Number"><input type="text" placeholder="Citizenship"><br>
+
+        <h2>Address (Residence)  [<i>If Not the Same As Client</i>]</h2>
+        <input type="text" placeholder="Street (Line 1)"><input type="text" placeholder="Street (Line 2)"><br>
+        <input type="text" placeholder="City"><input type="text" placeholder="State"><input type="text" placeholder="Zip">
+        
+    </form>
+
+    </div>
+
+    </body>
+</html>
