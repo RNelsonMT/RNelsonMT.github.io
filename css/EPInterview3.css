@@ -1,17 +1,19 @@
 body {
     font-family: Roboto, sans-serif;
-    background-color: white;
+    background-color: #7C8D93;
     background-size: cover;
 }
 
 header {
-    margin-bottom: 0;
+    margin-bottom: 0px;
+    background-color: #35697b;
+    color: white;
+    font-size: 25px;
 }
 
 form {
     background-color: #7C8D93;
     margin-top: 0;
-
 }
 
 input {
@@ -19,7 +21,16 @@ input {
     width: 29%;
     border-radius: 5px;
     background-color: 7C8D93;
-    height: 25px;
+    height: 35px;
+    font-size: 20px;
+    margin: 5px 20px;
+    padding: 3px;
+}
+
+button {
+    width: 15%;
+    border-radius: 5px;
+    height: 50px;
     font-size: 20px;
     margin: 5px 20px;
     padding: 3px;
@@ -40,6 +51,8 @@ h1 {
     background-color: #3d5861;
     color: white;
     font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 h2 {
@@ -53,3 +66,43 @@ h2 {
    color: #b5b1b1; 
 }
 
+ul {
+    list-style-type: none;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+li {
+    float: left;
+    padding: 5px;
+}
+    
+
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li a:hover{
+    background-color: cadetblue;
+}
+
+.right {
+    float: right;
+}
+
+.actionButtons {
+    margin-bottom: 15px;
+}
+
+.active {
+    background-color: cadetblue;
+}

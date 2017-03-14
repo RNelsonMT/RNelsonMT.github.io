@@ -4,10 +4,19 @@
         <meta charset="utf-8">
         <title>CHJW EP Intake</title>
         <link rel="stylesheet" href="css/EPInterview3.css">
-        </head>
+    </head>
     <body>
-        
-    <header><h1>CHJW Estate Planning Interview</h1></header>
+    <header>
+        <h1>CHJW Estate Planning Interview</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Parties</a></li>
+            <li><a href="#">Assets</a></li>
+            <li><a href="#">Documents</a></li>
+            <li class="right"><a href="#">Contact Us</a></li>
+        </ul><br>
+    </header>
+
     <div id="people">
         <form id="clientInfo">
             <h2>Client Name</h2>
@@ -19,7 +28,7 @@
             <input type="text" placeholder="Street (Line 1)" autocomplete="address-line1"><input type="text" placeholder="Street (Line 2)" autocomplete="address-line2"><br>
             <input type="text" placeholder="City" autocomplete="city"><input type="text" placeholder="State" autocomplete="state" value="Montana"><input type="text" placeholder="Zip" autocomplete="postal-code"><br>
 
-         <h2>Other Information</h2>
+         <h2>Other Information (Client)</h2>
             <select id="genderClient">
                 <option disabled selected>Gender</option>
                 <option value="male">Male</option>
@@ -36,7 +45,7 @@
                 <input type="date"><br>
                 <input type="text" placeholder="Social Security Number"><input type="text" placeholder="Citizenship" value="USA"><br>
                 <input type="tel" placeholder="Phone" autocomplete="tel"><input type="email" placeholder="Email">
-                <br><br><br>
+                <br>
             </form>          
 
         <form id="spouseInfo">
@@ -45,7 +54,7 @@
             <input type="text" placeholder="Prefix"><input type="text" placeholder="Suffix"><input type="text" placeholder="Salutation"><br>
             <input type="text" placeholder="Alias (Enter Full Name)"><br>
 
-            <h2>Other Information</h2>
+            <h2>Other Information (Spouse)</h2>
                 <select id="genderSpouse">
                     <option disabled selected>Gender</option>
                     <option value="male">Male</option>
@@ -58,7 +67,14 @@
             <input type="text" placeholder="Street (Line 1)"><input type="text" placeholder="Street (Line 2)"><br>
             <input type="text" placeholder="City"><input type="text" placeholder="State" value="Montana"><input type="text" placeholder="Zip">
             <br><br><br>
-        </form>
+    
+        <div class="actionButtons">
+            <button type="submit" class="right">Save Answers</button>
+            <button type="submit" class="right">Clear Answers</button>
+        </div>
+    </form>
+    <br>
     </div>
-    </body>
+    <br><br>
+</body>
 </html>
