@@ -6,7 +6,7 @@ body {
 
 header {
     margin-bottom: 0px;
-    background-color: #35697b;
+    background: linear-gradient(#31444b, #69777C);
     color: white;
     font-size: 25px;
 }
@@ -48,9 +48,6 @@ select {
 h1 {
     text-align: center;
     padding: 5px;
-/*    background-color: #3d5861;*/
-    background: linear-gradient(gray, #31444b);
-/*    background: linear-gradient (#2D3E45, #A1AAAD);*/
     color: white;
     font-size: 50px;
     margin-bottom: 0px;
@@ -61,7 +58,8 @@ h2 {
     padding-top: 10px;
     font-weight: 750;
     margin: 10px;
-    color: #143365;
+/*    color: #143365;*/
+    color: #22282a;
 }
 
 ::placeholder {
