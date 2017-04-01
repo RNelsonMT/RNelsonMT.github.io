@@ -48,7 +48,9 @@ select {
 h1 {
     text-align: center;
     padding: 5px;
-    background-color: #3d5861;
+/*    background-color: #3d5861;*/
+    background: linear-gradient(gray, #31444b);
+/*    background: linear-gradient (#2D3E45, #A1AAAD);*/
     color: white;
     font-size: 50px;
     margin-bottom: 0px;
