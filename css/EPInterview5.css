@@ -1,0 +1,17 @@
+.navbar {
+    background: linear-gradient(#31444b, #69777C);
+    color: white;
+    font-size: 25px;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-nav {
+    color: white;
+}
+
+li {
+    color: white;
+}
