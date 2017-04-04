@@ -1,7 +1,7 @@
 .navbar {
     background: linear-gradient(#31444b, #69777C);
     color: white;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .navbar-brand {
@@ -15,3 +15,10 @@
 li {
     color: white;
 }
+
+a {
+    color: white;
+    font-size: 20px;
+}
+
+
