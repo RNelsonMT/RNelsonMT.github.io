@@ -43,20 +43,19 @@
 
     <form id="clientInfo" class="form-inline">
         <h2>Client Name</h2>
-        <input class="form-control" type="text" placeholder="First Name" autocomplete="given-name">
-        <input class="form-control" type="text" placeholder="Middle Name" autocomplete="additional-name">
-        <input class="form-control" type="text" placeholder="Last Name" autocomplete="family-name">
+        <input id="ClientNameFirst" class="form-control relsize-33" type="text" placeholder="First Name" autocomplete="given-name">
+        <input id="ClientNameMiddle"class="form-control relsize-33" type="text" placeholder="Middle Name" autocomplete="additional-name">
+        <input id="ClientNameLast" class="form-control relsize-33" type="text" placeholder="Last Name" autocomplete="family-name">
         <br>
-        <input class="form-control" type="text" placeholder="Prefix" autocomplete="honorific-prefix">
-        <input class="form-control" type="text" placeholder="Suffix" autocomplete="honorific-suffix">
-        <input class="form-control" type="text" placeholder="Salutation / Nickname" autocomplete="nickname">
-        <br>
-        <input class="form-control" type="text" placeholder="Alias (Enter Full Name)">
+        <input id="ClientNamePre" class="form-control" type="text" placeholder="Prefix" autocomplete="honorific-prefix">
+        <input id="ClientNameSuf" class="form-control" type="text" placeholder="Suffix" autocomplete="honorific-suffix">
+        <input id="ClientNameSal" class="form-control" type="text" placeholder="Salutation / Nickname" autocomplete="nickname">
+        <input id="ClientNameAlias" class="form-control" type="text" placeholder="Alias (Enter Full Name)">
         <br>
 
         <h2>Address (Residence)</h2>
-        <input class="form-control" type="text" placeholder="Street (Line 1)" autocomplete="address-line1">
-        <input class="form-control" type="text" placeholder="Street (Line 2)" autocomplete="address-line2">
+        <input class="form-control" type="text" id="ClientAddressStreet1" placeholder="Street (Line 1)" autocomplete="address-line1">
+        <input class="form-control" id="ClientAddressStreet2" type="text" placeholder="Street (Line 2)" autocomplete="address-line2">
         <br>
         <input class="form-control" type="text" placeholder="City" autocomplete="city">
         <input class="form-control" type="text" placeholder="State" autocomplete="state" value="Montana">

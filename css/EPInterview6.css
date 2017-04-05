@@ -19,6 +19,7 @@ input {
     margin: 5px;
 }
 
+/*Classes*/
 .navbar {
     background: linear-gradient(#31444b, #69777C);
     font-size: 25px;
@@ -27,3 +28,15 @@ input {
 .navbar-default .navbar-nav>li>a {
     color: white;
 }
+
+/*IDs*/
+/*
+#ClientNameFirst, #ClientNameMiddle, #ClientNameLast {
+    width: 30%;
+}
+*/
+
+/*
+#ClientNamePre, #ClientNameSuf, #ClientNameSal, #ClientNameAlias {
+    width: 23.0%;
+}*/
