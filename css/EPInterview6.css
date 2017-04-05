@@ -1,0 +1,29 @@
+body {
+    padding-top: 60px;
+    background-color: #7C8D93;
+}
+
+h2 {
+    margin-left: -15px;
+}
+
+select {
+    margin-left: 4px;
+}
+
+a {
+    color: white;
+}
+
+input {
+    margin: 5px;
+}
+
+.navbar {
+    background: linear-gradient(#31444b, #69777C);
+    font-size: 25px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
